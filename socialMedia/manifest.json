@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name":"Social Media Links",
+    "version":"1.0.0",
+    "description":"social media",
+    "icons":{
+        "16":"./icon16.png",
+        "48": "./icon48.png",
+        "128": "./icon_128.png"
+    },
+    "browser_action":{
+        "default_icon":"icon_128.png",
+        "default_popup": "index.html"
+    },
+    "permissions":["activeTab","tabs","https://www.google.com/"],
+    "background":{
+        "Scripts":["script.js"]
+    }
+}

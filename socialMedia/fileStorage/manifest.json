@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name": "fileStorage",
+    "version": "0.1",
+    "description": "This is the 3rd chrome exetention",
+    "permissions":["storage","activeTab","<all_urls>","declarativeContent"],
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_title":"Does a thing when you do a thing ",
+        "content_scripts":[{
+            "matches":["<all_urls>"],       
+            "css": ["background.css"],
+            "js": ["background.js"]
+        }
+        ]
+    }
+}   
