@@ -1,3 +1,5 @@
--Chrome Extension:
+# Chrome Extension:
     ``` 1.  Hello World 
-        2. Social Media Links```
+        2. Social Media Links
+        
+    ```
